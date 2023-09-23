@@ -1,10 +1,12 @@
-meme_dict = {
-        "Crınge": "Garip ya da utandırıcı bir şey",
-        "Lol": "Komik bir şeye verilen cevap",
+dictionary_of_abbreviations = {
+        "Gg": "İyi oyun demek için kullanılan kısaltma",
+        "Ez": "Kolaydı demek için kullanılan kısaltma",
+        "Gt": "Geri takip demek için kullanılan kısaltma",
+        "Ty": "Teşekkür ederim demek için kullanılan kısaltma",
         }
 while True:
     word = input("Anlamadığınız bir kelime yazın (İlk harfi büyük yazıp diğerlerini küçük yazınız!): ")
-    if word in meme_dict.keys():
-        print(meme_dict[word])
+    if word in dictionary_of_abbreviations.keys():
+        print(dictionary_of_abbreviations[word])
     else:
         print("Bu kelime bulunamadı")
