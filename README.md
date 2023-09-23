@@ -1,1 +1,1 @@
-# meme-dict
+# dictionary-of-abbreviations
